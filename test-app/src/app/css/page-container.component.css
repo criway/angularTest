@@ -4,17 +4,9 @@
 	flex-flow: column;
 	display: flex;
 }
-.mainBar{
+main-bar {
 	height: 100px;
-	width: 100%;
-	background-color: blue;
-	flex-flow: row;
-	background: linear-gradient(black, green, red);
 }
-.pageDisplay {
-	height: 100%;
-	width: 100%;
-	background-color: red;
-	flex-flow: row;
-	background: radial-gradient(orange, red);
+page-display {
+	height: calc(100% - 100px);
 }

@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './ts/menu.component';
 import { PageContainerComponent } from './ts/page-container.component';
 import { MainBarComponent } from "./ts/main-bar.component";
+import { PageDisplayComponent } from "./ts/page-display.component";
 
 
 
@@ -16,7 +17,8 @@ import { MainBarComponent } from "./ts/main-bar.component";
     AppComponent,
 	MenuComponent,
 	PageContainerComponent,
-    MainBarComponent
+    MainBarComponent,
+    PageDisplayComponent
   ],
   imports: [
     BrowserModule,

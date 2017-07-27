@@ -1,0 +1,7 @@
+.pageDisplay {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  flex-flow: row;
+  background: radial-gradient(orange, red);
+}
