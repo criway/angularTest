@@ -1,45 +1,70 @@
 <div class='menu'>
 
-	<button md-button [mdMenuTriggerFor]="menu">Home</button>
-	
-	<md-menu #menu="mdMenu">
-		<button md-button [mdMenuTriggerFor]="myActivity">My Activity </button>
-		<md-menu #myActivity="mdMenu">
-			<button md-menu-item> To Do</button>			
-		</md-menu>
-
-		<button md-button [mdMenuTriggerFor]="history">History </button>
-		<md-menu #history="mdMenu">
-			<button md-menu-item> To Do</button>			
-		</md-menu>
-
-		<button md-button [mdMenuTriggerFor]="analytics">Analytics </button>
-		<md-menu #analytics="mdMenu">
-			<button md-menu-item> To Do</button>			
-		</md-menu>
-
-		<button md-button [mdMenuTriggerFor]="references">References </button>
-		<md-menu #references="mdMenu">
-			<button md-menu-item> Employees </button>	
-			<button md-menu-item> Location </button>	
-			<button md-menu-item> Department </button>			
-		</md-menu>
-
-	</md-menu>
-
 	<div md2-menu>
-		<button class="btn btn-primary" md2-menu-open> DefaultMenu <span class="caret"></span></button>
+		<button class="btn btn-primary" md2-menu-open> Home <span class="caret"></span></button>
 		<ul class="md2-menu-content">
-			<li><a class="md2-menu-item">Badman</a></li>
-			<li><a class="md2-menu-item">Sadman</a></li>
-			<li><a class="md2-menu-item">Lieman</a></li>
 			<li md2-menu>	
-				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
-				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>2nd level menu <span class="caret"></span></a>
+				<!-- add 'md2-menu-not-closable' attribute directive to open next level menu -->
+				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>My Activity<span class="caret"></span></a>
 				<ul class="md2-menu-content">
-					<li><a class="md2-menu-item">Lalaland</a></li>
-					<li><a class="md2-menu-item">grease</a></li>
-					<li><a class="md2-menu-item">eliseos</a></li>
+					<li md2-menu>
+						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>To Do<span class="caret"></span> </a>
+						<ul class="md2-menu-content">
+							<li><a class="md2-menu-item">My Actions</a></li>
+							<li><a class="md2-menu-item">Actions For my Groups</a></li>
+							<li><a class="md2-menu-item">Incidents On Hold</a></li>
+							<li><a class="md2-menu-item">KB Articles to Review</a></li>
+						</ul>
+					</li>
+					<li md2-menu>
+						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>Knowledge<span class="caret"></span> </a>
+						<ul class="md2-menu-content">
+							<li><a class="md2-menu-item">KB Articles</a></li>
+							<li><a class="md2-menu-item">Dell Support Wiki</a></li>
+							<li><a class="md2-menu-item">SAP Knowledge Base</a></li>
+						</ul>
+					</li>
+					<li md2-menu>
+						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>Asset Management<span class="caret"></span> </a>
+						<ul class="md2-menu-content">
+							<li><a class="md2-menu-item">Discovery</a></li>
+							<li><a class="md2-menu-item">Consumable Stock</a></li>
+							<li><a class="md2-menu-item">Active Equipment</a></li>
+						</ul>
+					</li>
+					<li md2-menu>
+						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>More<span class="caret"></span> </a>
+						<ul class="md2-menu-content">
+							<li><a class="md2-menu-item">1</a></li>
+							<li><a class="md2-menu-item">2</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li md2-menu>
+				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
+				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>History <span class="caret"></span></a>
+				<ul class="md2-menu-content">
+					<li><a class="md2-menu-item">20 lasts</a></li>
+					<li><a class="md2-menu-item">Content Records</a></li>
+				</ul>
+			</li>
+			<li md2-menu>
+				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
+				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>Analytics<span class="caret"></span></a>
+				<ul class="md2-menu-content">
+					<li><a class="md2-menu-item">Reporting</a></li>
+					<li><a class="md2-menu-item">Dashboards</a></li>
+					<li><a class="md2-menu-item">Bussines Intelligence</a></li>
+				</ul>
+			</li>
+			<li md2-menu>
+				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
+				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>References <span class="caret"></span></a>
+				<ul class="md2-menu-content">
+					<li><a class="md2-menu-item">Employees</a></li>
+					<li><a class="md2-menu-item">Location</a></li>
+					<li><a class="md2-menu-item">Department</a></li>
 				</ul>
 			</li>
 		</ul>

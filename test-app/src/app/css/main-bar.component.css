@@ -1,0 +1,7 @@
+.mainBar{
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+  flex-flow: row;
+  background: linear-gradient(black, green, red);
+}

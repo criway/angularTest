@@ -7,20 +7,22 @@ import { Md2MenuModule } from 'md2-menu/menu';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './ts/menu.component';
 import { PageContainerComponent } from './ts/page-container.component';
+import { MainBarComponent } from "./ts/main-bar.component";
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-		MenuComponent,
-		PageContainerComponent
+	MenuComponent,
+	PageContainerComponent,
+    MainBarComponent
   ],
   imports: [
     BrowserModule,
-		BrowserAnimationsModule,
-		MdMenuModule,
-		Md2MenuModule
+    BrowserAnimationsModule,
+	MdMenuModule,
+	Md2MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
