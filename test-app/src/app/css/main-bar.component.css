@@ -5,3 +5,15 @@
   flex-flow: row;
   background: linear-gradient(black, green, red);
 }
+
+md-icon.user{
+  float: right;
+}
+
+md-icon.exit{
+  float: right;
+}
+
+.mat-icon {
+  width: 100%;
+}

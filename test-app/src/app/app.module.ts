@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MdMenuModule } from '@angular/material';
+import { MdMenuModule, MdIconModule } from '@angular/material';
 import { Md2MenuModule } from 'md2-menu/menu';
 
 import { AppComponent } from './app.component';
@@ -24,7 +24,8 @@ import { PageDisplayComponent } from "./ts/page-display.component";
     BrowserModule,
     BrowserAnimationsModule,
 	MdMenuModule,
-	Md2MenuModule
+	Md2MenuModule,
+    MdIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
