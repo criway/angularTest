@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { MdMenuModule } from '@angular/material';
+import { Md2MenuModule } from 'md2-menu/menu';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './ts/menu.component';
 import { PageContainerComponent } from './ts/page-container.component';
+
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import { PageContainerComponent } from './ts/page-container.component';
   imports: [
     BrowserModule,
 		BrowserAnimationsModule,
-		MdMenuModule
+		MdMenuModule,
+		Md2MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

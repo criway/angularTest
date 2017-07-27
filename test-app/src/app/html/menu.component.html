@@ -25,5 +25,24 @@
 			<button md-menu-item> Department </button>			
 		</md-menu>
 
-	</md-menu>	
+	</md-menu>
+
+	<div md2-menu>
+		<button class="btn btn-primary" md2-menu-open> DefaultMenu <span class="caret"></span></button>
+		<ul class="md2-menu-content">
+			<li><a class="md2-menu-item">Badman</a></li>
+			<li><a class="md2-menu-item">Sadman</a></li>
+			<li><a class="md2-menu-item">Lieman</a></li>
+			<li md2-menu>	
+				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
+				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>2nd level menu <span class="caret"></span></a>
+				<ul class="md2-menu-content">
+					<li><a class="md2-menu-item">Lalaland</a></li>
+					<li><a class="md2-menu-item">grease</a></li>
+					<li><a class="md2-menu-item">eliseos</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
 </div>
