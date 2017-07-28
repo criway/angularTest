@@ -3,7 +3,6 @@
 	width: 15%;
 	min-width: 200px;
 	background-color: khaki;
-	flex-flow: column;
 	border-right-style: double;
 	border-right-color: dimgrey;
 	border-width: 5px;

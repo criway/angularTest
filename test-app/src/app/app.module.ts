@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { MdMenuModule, MdIconModule } from '@angular/material';
 import { Md2MenuModule } from 'md2-menu/menu';
 
+import { RouterModule, Routes } from '@angular/router';
+
 import { AppComponent } from './app.component';
 import { MenuComponent } from './ts/menu.component';
 import { PageContainerComponent } from './ts/page-container.component';
@@ -14,6 +16,9 @@ import { Widget2Component } from "./ts/widget2.component";
 import { Widget3Component } from "./ts/widget3.component";
 import { Widget4Component } from "./ts/widget4.component";
 
+const appRoutes: Routes = [
+
+];
 
 @NgModule({
   declarations: [

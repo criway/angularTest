@@ -8,5 +8,5 @@ main-bar {
 	height: 100px;
 }
 page-display {
-	height: calc(100% - 100px);
+	height: 100%;
 }
