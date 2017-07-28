@@ -23,6 +23,7 @@ widget2 {
   background-color: aliceblue;
   border: 1px solid black;
   margin: 30px;
+  text-align: center;
 }
 widget3 {
   flex-grow: 1;
@@ -36,3 +37,4 @@ widget4 {
   border: 1px solid black;
   margin: 30px;
 }
+
