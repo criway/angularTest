@@ -9,7 +9,10 @@ import { MenuComponent } from './ts/menu.component';
 import { PageContainerComponent } from './ts/page-container.component';
 import { MainBarComponent } from "./ts/main-bar.component";
 import { PageDisplayComponent } from "./ts/page-display.component";
-
+import { Widget1Component } from "./ts/widget1.component";
+import { Widget2Component } from "./ts/widget2.component";
+import { Widget3Component } from "./ts/widget3.component";
+import { Widget4Component } from "./ts/widget4.component";
 
 
 @NgModule({
@@ -18,7 +21,11 @@ import { PageDisplayComponent } from "./ts/page-display.component";
 	MenuComponent,
 	PageContainerComponent,
     MainBarComponent,
-    PageDisplayComponent
+    PageDisplayComponent,
+    Widget1Component,
+    Widget2Component,
+    Widget3Component,
+    Widget4Component
   ],
   imports: [
     BrowserModule,

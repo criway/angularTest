@@ -2,6 +2,37 @@
   height: 100%;
   width: 100%;
   background-color: red;
-  flex-flow: row;
   background: radial-gradient(orange, red);
+}
+
+.widgets-container {
+  display: flex;
+  flex-flow: row;
+  align-content: space-around;
+  height: 100%;
+}
+
+widget1 {
+  flex-grow: 1;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin: 30px;
+}
+widget2 {
+  flex-grow: 1;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin: 30px;
+}
+widget3 {
+  flex-grow: 1;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin: 30px;
+}
+widget4 {
+  flex-grow: 1;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin: 30px;
 }
