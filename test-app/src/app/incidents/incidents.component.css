@@ -1,0 +1,14 @@
+.incidentsPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.topWidgetsIncidents{
+  height: 100px;
+  width: 100%;
+}
+.incidentList {
+  width: 100%;
+  height: 100%;
+}
