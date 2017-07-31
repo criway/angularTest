@@ -16,6 +16,8 @@ import { Widget2Component } from './ts/widget2.component';
 import { Widget3Component } from './ts/widget3.component';
 import { Widget4Component } from './ts/widget4.component';
 
+import { IncidentService } from './incidents/services/incident.service';
+
 import { IncidentsComponent } from './incidents/incidents.component';
 import { IncidentDetailComponent } from './incidents/incident-detail.component';
 
@@ -50,7 +52,7 @@ const appRoutes: Routes = [
         {enableTracing: true}
     )
   ],
-  providers: [],
+  providers: [ IncidentService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,22 @@
+.detail-incident-container {
+  width: 280px;
+  display: block;
+}
+
+.incident-info {
+  padding-bottom: 5px;
+}
+
+.incident-info  label{
+    width: 80px;
+}
+.incident-info  input{
+  width: 200px;
+  float: right;
+}
+
+
+
+.incident-info {
+  flex-grow: 1;
+}

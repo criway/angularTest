@@ -1,0 +1,30 @@
+<div class="detail-incident-container">
+  <div class="incident-info">
+    <label for="id">Id: </label>
+    <input id="id" contenteditable="false" value={{incident.id}}>
+  </div>
+
+  <div class="incident-info">
+    <label for="name">Name: </label>
+    <input id="name" contenteditable="false" value={{incident.name}}>
+  </div>
+
+  <div class="incident-info">
+    <label for="reason">Reason: </label>
+    <input id="reason" contenteditable="false" value={{incident.reason}}>
+  </div>
+
+  <div class="incident-info">
+    <label for="date">Date: </label>
+    <input id="date" contenteditable="false" value={{incident.date}}>
+  </div>
+
+  <div class="incident-info">
+    <label for="status">Status: </label>
+    <input id="status" contenteditable="false" value={{incident.status}}>
+  </div>
+
+
+</div>
+<br/>
+<button (click)="goBack()">Back</button>

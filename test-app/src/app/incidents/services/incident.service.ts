@@ -4,7 +4,11 @@ import * as incidentsData from '../incidentList.json';
 @Injectable()
 
 export class IncidentService {
-  getIncidents(): Promise<object> {
+  getIncidents(): Promise<any> {
     return Promise.resolve(<any>incidentsData[0].incidents);
+  }
+  getIncident(id: any): Promise<any> {
+    return this.getIncidents()
+      .then(incidents => incidents.find(incident => incident.id === id));
   }
 }
