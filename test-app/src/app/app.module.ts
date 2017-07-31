@@ -17,30 +17,38 @@ import { Widget3Component } from './ts/widget3.component';
 import { Widget4Component } from './ts/widget4.component';
 
 import { IncidentsComponent } from './incidents/incidents.component';
+import { IncidentDetailComponent } from './incidents/incident-detail.component';
 
 const appRoutes: Routes = [
-
+  { path: 'incidents', component: IncidentsComponent },
+  { path: 'detail/:id', component: IncidentDetailComponent },
+  { path: '**', component: PageContainerComponent}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-	MenuComponent,
-	PageContainerComponent,
+	  MenuComponent,
+	  PageContainerComponent,
     MainBarComponent,
     PageDisplayComponent,
     Widget1Component,
     Widget2Component,
     Widget3Component,
     Widget4Component,
-    IncidentsComponent
+    IncidentsComponent,
+    IncidentDetailComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-	MdMenuModule,
-	Md2MenuModule,
-    MdIconModule
+	  MdMenuModule,
+    Md2MenuModule,
+    MdIconModule,
+    RouterModule.forRoot(
+        appRoutes,
+        {enableTracing: true}
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

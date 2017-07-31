@@ -11,7 +11,4 @@ menu{
 main-bar {
 	height: 100px;
 }
-page-container {
-	width: 100%;
-	height: calc(100% - 100px);
-}
+

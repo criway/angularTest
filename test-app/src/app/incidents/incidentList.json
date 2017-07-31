@@ -1,0 +1,46 @@
+{
+  "incidents": [
+    {
+      "id": 10,
+      "name": "Juanan",
+      "reason": "some reason",
+      "date": "21/06/2006",
+      "status": "closed"
+    },
+    {
+      "id": 11,
+      "name": "Maria",
+      "reason": "some reason",
+      "date": "31/07/2017",
+      "status": "open"
+    },
+    {
+      "id": 12,
+      "name": "Lucia",
+      "reason": "some reason",
+      "date": "01/01/2000",
+      "status": "closed"
+    },
+    {
+      "id": 13,
+      "name": "Ladrido",
+      "reason": "some reason",
+      "date": "22/02/2014",
+      "status": "open"
+    },
+    {
+      "id": 14,
+      "name": "Ramona",
+      "reason": "some reason",
+      "date": "28/06/2017",
+      "status": "open"
+    },
+    {
+      "id": 15,
+      "name": "Pablo",
+      "reason": "some reason",
+      "date": "31/12/2011",
+      "status": "closed"
+    }
+  ]
+}

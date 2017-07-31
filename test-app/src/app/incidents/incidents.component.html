@@ -4,12 +4,16 @@
 
     </div>
     <div class="assistantsContainer">
-
+      <nav>
+        <a routerLink="/" routerLinkActive="active">Home</a>
+      </nav>
     </div>
   </div>
 
   <div class="incidentList">
-
+    <ul class="incidents-container">
+      <li class="incident-item" *ngFor="let incident of incidentList" [routerLink]="['/detail', incident.id]">{{incident.id}} {{incident.reason}} {{incident.data}} {{incident.status}}</li>
+    </ul>
   </div>
 
 </div>
