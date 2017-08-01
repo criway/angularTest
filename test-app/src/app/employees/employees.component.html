@@ -1,3 +1,8 @@
 <div class="employees-page">
-  <h1>Employees List</h1>
+  <h1 style="padding-left: 1.5em;color: gold">Employees List</h1>
+  <div class="employeesList">
+    <ul class="employees-container">
+      <li class="employee-item" *ngFor="let employee of employeesList" [routerLink]="['/employee-detail', employee.id]">{{employee.id}}  {{employee.name}}  {{employee.email}}  {{employee.phone}}</li>
+    </ul>
+  </div>
 </div>

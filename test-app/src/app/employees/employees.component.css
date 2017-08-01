@@ -2,3 +2,32 @@
   height: 100%;
   width: 100%;
 }
+
+.employees-container{
+  display: flex;
+  flex-flow:column;
+  -webkit-padding-start: 0;
+  margin: 30px;
+}
+.employee-item{
+  height: 2em;
+  width: 100%;
+  display: block;
+
+  background-color: greenyellow;
+  border: 2px solid green;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  padding-top: 8px;
+  padding-left: 1em;
+
+  cursor: pointer;
+}
+
+.employee-item:hover{
+  padding-top: 12px;
+  font-size: 1.2em;
+  border-color: aliceblue;
+}

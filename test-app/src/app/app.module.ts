@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { MdMenuModule, MdIconModule } from '@angular/material';
 import { Md2MenuModule } from 'md2-menu/menu';
+import { HttpModule } from '@angular/http';
 
 import { RouterModule, Routes } from '@angular/router';
 
@@ -50,6 +51,7 @@ const appRoutes: Routes = [
 	  MdMenuModule,
     Md2MenuModule,
     MdIconModule,
+    HttpModule,
     RouterModule.forRoot(
         appRoutes,
         {enableTracing: true}
