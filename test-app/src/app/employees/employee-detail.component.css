@@ -1,0 +1,42 @@
+.employee-page {
+  width: 100%;
+  height: 100%;
+}
+.back-button{
+  margin-left: 1.5em;
+  background-color: darkgreen;
+  height: 3em;
+  width: 4em;
+  border-color: green;
+  color: white;
+}
+
+.detail-employee-container {
+  width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  background: linear-gradient(greenyellow, goldenrod);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  box-shadow: 10px 20px 5px  dimgrey;
+}
+
+.employee-info {
+
+  padding-bottom: 5px;
+}
+
+.employee-info  label{
+  width: 80px;
+}
+.employee-info  input{
+  width: 200px;
+  float: right;
+}
+
+.employee-info {
+  flex-grow: 1;
+}
