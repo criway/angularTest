@@ -20,9 +20,11 @@ import { IncidentService } from './incidents/services/incident.service';
 
 import { IncidentsComponent } from './incidents/incidents.component';
 import { IncidentDetailComponent } from './incidents/incident-detail.component';
+import { EmployeesComponent } from "./employees/employees.component";
 
 const appRoutes: Routes = [
   { path: 'incidents', component: IncidentsComponent },
+  { path: 'employees', component: EmployeesComponent },
   { path: 'detail/:id', component: IncidentDetailComponent },
   { path: '**', component: PageContainerComponent}
 ];
@@ -39,7 +41,8 @@ const appRoutes: Routes = [
     Widget3Component,
     Widget4Component,
     IncidentsComponent,
-    IncidentDetailComponent
+    IncidentDetailComponent,
+    EmployeesComponent
   ],
   imports: [
     BrowserModule,

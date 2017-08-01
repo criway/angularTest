@@ -2,6 +2,14 @@
   width: 100%;
   height: 100%;
 }
+.back-button{
+  margin-left: 1.5em;
+  background-color: darkgreen;
+  height: 3em;
+  width: 4em;
+  border-color: green;
+  color: white;
+}
 
 .detail-incident-container {
   width: 280px;
@@ -17,6 +25,7 @@
 }
 
 .incident-info {
+
   padding-bottom: 5px;
 }
 
@@ -27,8 +36,6 @@
   width: 200px;
   float: right;
 }
-
-
 
 .incident-info {
   flex-grow: 1;
