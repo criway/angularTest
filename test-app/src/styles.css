@@ -5,6 +5,16 @@ body {
 	margin: 0px;
 }
 
+.button-action {
+ margin-left: 1.5em;
+ margin-right: 1.5em;
+ background-color: darkgreen;
+ height: 3em;
+ width: 4em;
+ border-color: green;
+ color: white;
+}
+
 .main-container{
  height: calc(100% - 100px);
  background: radial-gradient(orange, red);
