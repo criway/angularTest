@@ -2,8 +2,24 @@
 	height: 100%;
 	width: 15%;
 	min-width: 200px;
-	background-color: khaki;
+	background: linear-gradient(lightslategray, white);
 	border-right-style: double;
 	border-right-color: dimgrey;
 	border-width: 5px;
+}
+.btn.btn-primary.home-btn {
+
+	width: 90%;
+	height: 3em;
+	border-radius: 1em;
+	border-style: solid;
+	border-width: 4px;
+	border-color: cornsilk;
+}
+.btn.btn-primary.home-btn:hover {
+	border-color: cornflowerblue;
+}
+[md2-menu]{
+	width: 100%;
+	text-align: center;
 }
