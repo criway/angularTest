@@ -21,7 +21,5 @@ export class EmployeesComponent implements OnInit {
       console.log(employees);
       this.employeesList = employees;
     });
-
-
   }
 }
