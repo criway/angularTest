@@ -36,7 +36,7 @@ We can think in Components as a pack of Directive+Controller. Classes as Factori
 Seems Angular2 is a nonstop growing framework so it will continue for a long period of time.
 ## First App Feedback
 #### Demo project Git URL
-
+[GitLabLink](https://gitlab.evlabs.net/olmanrique/angularTest/tree/master/test-app)
 #### Pros
 
 #### Cons

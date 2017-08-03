@@ -53,7 +53,6 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
 	  MdMenuModule,
-    Md2MenuModule,
     MdIconModule,
     HttpModule,
     RouterModule.forRoot(
