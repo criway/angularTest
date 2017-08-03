@@ -5,6 +5,10 @@ body {
 	margin: 0px;
 }
 
+.assistantsContainer {
+ float: right;
+}
+
 .button-action {
  margin-left: 1.5em;
  margin-right: 1.5em;

@@ -14,9 +14,6 @@
   height: 100%;
 }
 
-.assistantsContainer {
-  float: right;
-}
 .incidents-container{
   display: flex;
   flex-flow:column;

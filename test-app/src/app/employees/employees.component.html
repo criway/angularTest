@@ -1,5 +1,15 @@
 <div class="employees-page">
+
+  <div class="assistantsContainer">
+    <nav>
+      <button class="button-action" routerLink="/" routerLinkActive="active">
+        <md-icon aria-hidden="true">home</md-icon>
+      </button>
+    </nav>
+  </div>
+
   <h1 style="padding-left: 1.5em;color: gold">Employees List</h1>
+
   <div class="employeesList">
     <ul class="employees-container">
       <li class="employee-item" *ngFor="let employee of employeesList" [routerLink]="['/employee-detail', employee.id]">{{employee.id}}  {{employee.name}}  {{employee.email}}  {{employee.phone}}</li>
