@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { MdMenuModule, MdIconModule } from '@angular/material';
 import { Md2MenuModule } from 'md2-menu/menu';
 import { HttpModule } from '@angular/http';
+import { AgGridModule } from 'ag-grid-angular/main';
 
 import { RouterModule, Routes } from '@angular/router';
 
@@ -23,13 +24,15 @@ import { IncidentsComponent } from './incidents/incidents.component';
 import { IncidentDetailComponent } from './incidents/incident-detail.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeDetailComponent} from './employees/employee-detail.component';
-
+import { GridPlaygroundComponent } from './gridplayground/grid-playground.component';
+import { GridPageComponent } from './gridplayground/grid-page.component';
 
 const appRoutes: Routes = [
   { path: 'incidents', component: IncidentsComponent },
   { path: 'employees', component: EmployeesComponent },
   { path: 'detail/:id', component: IncidentDetailComponent },
   { path: 'employee-detail/:id', component: EmployeeDetailComponent },
+  { path: 'grid-playground', component: GridPageComponent },
   { path: '**', component: PageContainerComponent}
 ];
 
@@ -47,7 +50,9 @@ const appRoutes: Routes = [
     IncidentsComponent,
     IncidentDetailComponent,
     EmployeesComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    GridPlaygroundComponent,
+    GridPageComponent
   ],
   imports: [
     BrowserModule,
@@ -56,6 +61,7 @@ const appRoutes: Routes = [
     Md2MenuModule,
     MdIconModule,
     HttpModule,
+    AgGridModule.withComponents([]),
     RouterModule.forRoot(
         appRoutes,
         {enableTracing: true}
