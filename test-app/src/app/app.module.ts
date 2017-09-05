@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { MdMenuModule, MdIconModule } from '@angular/material';
-import { Md2MenuModule } from 'md2-menu/menu';
 import { HttpModule } from '@angular/http';
 import { AgGridModule } from 'ag-grid-angular/main';
 
@@ -58,7 +57,6 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
 	  MdMenuModule,
-    Md2MenuModule,
     MdIconModule,
     HttpModule,
     AgGridModule.withComponents([]),

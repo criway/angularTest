@@ -1,71 +1,8 @@
 <div class='menu'>
 	<br />
-	<div md2-menu>
-		<button class="btn btn-primary home-btn" md2-menu-open> Home <span class="caret"></span></button>
-		<ul class="md2-menu-content">
-			<li md2-menu>	
-				<!-- add 'md2-menu-not-closable' attribute directive to open next level menu -->
-				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>My Activity<span class="caret"></span></a>
-				<ul class="md2-menu-content">
-					<li md2-menu>
-						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open routerLink="/incidents" routerLinkActive="active">Incidents<span class="caret"></span> </a>
-						<ul class="md2-menu-content">
-							<li><a class="md2-menu-item">My Actions</a></li>
-							<li><a class="md2-menu-item">Actions For my Groups</a></li>
-							<li><a class="md2-menu-item">Incidents On Hold</a></li>
-							<li><a class="md2-menu-item">KB Articles to Review</a></li>
-						</ul>
-					</li>
-					<li md2-menu>
-						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>Knowledge<span class="caret"></span> </a>
-						<ul class="md2-menu-content">
-							<li><a class="md2-menu-item">KB Articles</a></li>
-							<li><a class="md2-menu-item">Dell Support Wiki</a></li>
-							<li><a class="md2-menu-item">SAP Knowledge Base</a></li>
-						</ul>
-					</li>
-					<li md2-menu>
-						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>Asset Management<span class="caret"></span> </a>
-						<ul class="md2-menu-content">
-							<li><a class="md2-menu-item">Discovery</a></li>
-							<li><a class="md2-menu-item">Consumable Stock</a></li>
-							<li><a class="md2-menu-item">Active Equipment</a></li>
-						</ul>
-					</li>
-					<li md2-menu>
-						<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>More<span class="caret"></span> </a>
-						<ul class="md2-menu-content">
-							<li><a class="md2-menu-item">1</a></li>
-							<li><a class="md2-menu-item">2</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li md2-menu>
-				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
-				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>History <span class="caret"></span></a>
-				<ul class="md2-menu-content">
-					<li><a class="md2-menu-item">20 lasts</a></li>
-					<li><a class="md2-menu-item">Content Records</a></li>
-				</ul>
-			</li>
-			<li md2-menu>
-				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
-				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open>Analytics<span class="caret"></span></a>
-				<ul class="md2-menu-content">
-					<li><a class="md2-menu-item">Reporting</a></li>
-					<li><a class="md2-menu-item">Dashboards</a></li>
-					<li><a class="md2-menu-item">Bussines Intelligence</a></li>
-				</ul>
-			</li>
-			<li md2-menu>
-				<!-- add 'md2-menu-not-closable' attribute directive to open next leve menu -->
-				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open routerLink="/employees" routerLinkActive="active">Employees <span class="caret"></span></a>
-			</li>
-			<li md2-menu>
-				<a class="md2-menu-item" md2-menu-not-closable md2-menu-open routerLink="/grid-playground" routerLinkActive="active">Grid PlayGround <span class="caret"></span></a>
-			</li>
-		</ul>
-	</div>
-	
+	<a routerLink="/incidents" routerLinkActive="active">Incidents</a>
+	<br />
+	<a routerLink="/employees" routerLinkActive="active">Employees</a>
+	<br />
+	<a routerLink="/grid-playground" routerLinkActive="active">Grid PlayGround</a>
 </div>
