@@ -26,6 +26,7 @@ import { EmployeeDetailComponent} from './employees/employee-detail.component';
 import { GridPlaygroundComponent } from './gridplayground/grid-playground.component';
 import { GridPageComponent } from './gridplayground/grid-page.component';
 
+
 const appRoutes: Routes = [
   { path: 'incidents', component: IncidentsComponent },
   { path: 'employees', component: EmployeesComponent },
@@ -38,8 +39,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-	  MenuComponent,
-	  PageContainerComponent,
+    MenuComponent,
+    PageContainerComponent,
     MainBarComponent,
     PageDisplayComponent,
     Widget1Component,
@@ -56,7 +57,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-	  MdMenuModule,
+    MdMenuModule,
     MdIconModule,
     HttpModule,
     AgGridModule.withComponents([]),
