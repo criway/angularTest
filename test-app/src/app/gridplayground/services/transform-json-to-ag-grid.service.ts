@@ -1,5 +1,4 @@
-import {Injectable} from "@angular/core";
-import {forEach} from "@angular/router/src/utils/collection";
+import {Injectable} from '@angular/core';
 
 @Injectable()
 
@@ -20,7 +19,7 @@ export class TransformJsonToAgGridService {
     return columnDefs;
   }
   transformToAgGrid(data): object {
-    //data must have 2 properties: header and data, both arrays
+    // data must have 2 properties: header and data, both arrays
     const colDefs = this.getColDefsArray(data.header, data.data);
     return {
       columnDefs: colDefs,

@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 import {JsonReaderService} from './services/json-reader.service';
 import {TransformJsonToAgGridService} from './services/transform-json-to-ag-grid.service';
@@ -10,11 +10,11 @@ import {TransformJsonToAgGridService} from './services/transform-json-to-ag-grid
   providers: [JsonReaderService,
     TransformJsonToAgGridService]
 })
-
+@Input()
 export class GridPlaygroundComponent {
   columnDefs;
   rowData;
-  employees: object;
+  employees: {[k: string]: any};          // we define in this way so we can add more properties in a future
 
   constructor(private jsonReaderService: JsonReaderService,
               private transformJsonToAgGridService: TransformJsonToAgGridService) {
@@ -41,6 +41,7 @@ export class GridPlaygroundComponent {
       .then(data => {
         this.employees = data;
         this.employees = this.transformJsonToAgGridService.transformToAgGrid(this.employees);
+        this.employees.enableResize = true;
       });
   }
 }

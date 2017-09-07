@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { MdMenuModule, MdIconModule } from '@angular/material';
 import { HttpModule } from '@angular/http';
 import { AgGridModule } from 'ag-grid-angular/main';
+import { FormsModule } from '@angular/forms';
 
 import { RouterModule, Routes } from '@angular/router';
 
@@ -61,6 +62,7 @@ const appRoutes: Routes = [
     MdIconModule,
     HttpModule,
     AgGridModule.withComponents([]),
+    FormsModule,
     RouterModule.forRoot(
         appRoutes,
         {enableTracing: true}
