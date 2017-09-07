@@ -1,0 +1,10 @@
+
+<h3>Insert New Employee</h3>
+<form>
+  <div *ngFor="let col of coldefs">
+    <label>
+      {{col.headerName}}
+      <input type="text" placeholder="insert {{col.headerName}}"/>
+    </label>
+  </div>
+</form>

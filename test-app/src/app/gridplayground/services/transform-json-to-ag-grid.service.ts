@@ -1,14 +1,19 @@
 import {Injectable} from '@angular/core';
 
+interface ColumnDefinitions {
+  columnDefs: object;
+  fields: string[];
+}
+
 @Injectable()
 
 export class TransformJsonToAgGridService {
   rowData;
 
-  private getColDefsArray(header, data): object[] {
+  private getColDefsArray(header, data): ColumnDefinitions {
     const columnDefs = [];
     const fieldKeys = Object.keys(data[0]);
-    header.colNames.forEach(function(name, index) {
+    header.colNames.forEach(function (name, index) {
       columnDefs.push(
         {
           'headerName': name,
@@ -16,13 +21,16 @@ export class TransformJsonToAgGridService {
         }
       );
     });
-    return columnDefs;
+
+    return {'columnDefs': columnDefs, 'fields': fieldKeys};
   }
+
   transformToAgGrid(data): object {
     // data must have 2 properties: header and data, both arrays
-    const colDefs = this.getColDefsArray(data.header, data.data);
+    const definitions: ColumnDefinitions = this.getColDefsArray(data.header, data.data);
     return {
-      columnDefs: colDefs,
+      columnDefs: definitions.columnDefs,
+      fields: definitions.fields,
       rowData: data.data
     };
   }

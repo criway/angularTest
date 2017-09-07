@@ -26,7 +26,9 @@ import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeDetailComponent} from './employees/employee-detail.component';
 import { GridPlaygroundComponent } from './gridplayground/grid-playground.component';
 import { GridPageComponent } from './gridplayground/grid-page.component';
+import { AddRowFormComponent } from "./addRowForm/add-row-form.component";
 
+import { AddEmployeeFormComponent } from "../addEmployeeForm/add-employee-form.component";
 
 const appRoutes: Routes = [
   { path: 'incidents', component: IncidentsComponent },
@@ -53,7 +55,9 @@ const appRoutes: Routes = [
     EmployeesComponent,
     EmployeeDetailComponent,
     GridPlaygroundComponent,
-    GridPageComponent
+    GridPageComponent,
+    AddRowFormComponent,
+    AddEmployeeFormComponent
   ],
   imports: [
     BrowserModule,
