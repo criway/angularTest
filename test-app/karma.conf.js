@@ -3,7 +3,11 @@
 
 module.exports = function (config) {
   config.set({
+    autoWatch: true,
+    autoWatchBatchDelay: 500,
     basePath: '',
+    browsers: ['Chrome'],
+    browserNoActivityTimeout: 20000,
     frameworks: ['jasmine', '@angular/cli'],
     plugins: [
       require('karma-jasmine'),
@@ -26,8 +30,6 @@ module.exports = function (config) {
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
     singleRun: false
   });
 };
