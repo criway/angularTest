@@ -100,3 +100,10 @@ This time, in addition to declaring the *component-under-test*, the configuratio
         
         
 ### Test a component with an async service
+
+
+
+
+### Test Services. Isolated Unit Test
+ It's often more productive to explore the inner logic of application classes with isolated unit tests that don't depend upon Angular. Such tests are often smaller and easier to read, write, and maintain.
+ 

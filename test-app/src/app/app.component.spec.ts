@@ -5,6 +5,7 @@ import {DebugElement} from '@angular/core';
 import {AppComponent} from './app.component';
 import {MainBarStubComponent} from '../testing/main-bar-stubs';
 import {RouterOutletStubsComponent} from '../testing/router-outlet-stubs';
+import {findConfiguration} from "tslint/lib/configuration";
 
 describe('AppComponent HTML elements', () => {
   let comp: AppComponent;
@@ -63,5 +64,22 @@ describe('AppComponent HTML elements', () => {
     const mainContainer = appContainer.query(By.css('router-outlet')).nativeElement;
     expect(mainContainer).toBeTruthy();
   });
-})
-;
+});
+
+describe('AppComponent attributes', () => {
+  let fixture: ComponentFixture<AppComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule( {
+      declarations: [AppComponent,
+        MainBarStubComponent,
+        RouterOutletStubsComponent]
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(AppComponent);
+  });
+
+  it('title attribute is app', () => {
+    expect(fixture.componentInstance.title).toEqual('app');
+  });
+});

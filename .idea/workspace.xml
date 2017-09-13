@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ba9929-cf0e-4bb7-a177-7478a15152bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/AngularTesting.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-app/src/app/1st.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-app/src/testing/main-bar-stubs.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-app/src/testing/router-outlet-stubs.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-app/src/testing/http.stubs.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-app/karma.conf.js" afterPath="$PROJECT_DIR$/test-app/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-app/src/app/app.component.html" afterPath="$PROJECT_DIR$/test-app/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/AngularTesting.md" afterPath="$PROJECT_DIR$/docs/AngularTesting.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-app/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/test-app/src/app/app.component.spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-app/src/app/ts/main-bar.component.ts" afterPath="$PROJECT_DIR$/test-app/src/app/ts/main-bar.component.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,93 +19,87 @@
     <SUITE FILE_PATH="coverage/angularTest$Test.coverage" NAME="Test Coverage Results" MODIFIED="1505126648285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="KarmaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.component.spec.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.spec.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="531">
-                  <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-                  <folding>
-                    <element signature="e#0#71#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="1st.spec.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test-app/src/app/1st.spec.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AngularTesting.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/docs/AngularTesting.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="380">
-                    <caret line="95" column="200" lean-forward="false" selection-start-line="95" selection-start-column="189" selection-end-line="95" selection-end-column="200" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test-app/karma.conf.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test-app/src/main.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.component.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json-reader.service.spec.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid-playground.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/grid-playground.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.stubs.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-app/src/testing/http.stubs.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json-reader.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-app/node_modules/@angular/http/src/http.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AngularTesting.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/AngularTesting.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="558">
+                <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -135,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-app/src/app/employees/employee-detail.component.html" />
-        <option value="$PROJECT_DIR$/test-app/src/app/employees/employee-detail.component.css" />
         <option value="$PROJECT_DIR$/test-app/src/app/employees/services/employees.service.ts" />
         <option value="$PROJECT_DIR$/test-app/src/app/employees/employee-detail.component.ts" />
         <option value="$PROJECT_DIR$/test-app/src/app/employees/services/employee-search.service.ts" />
@@ -180,12 +167,14 @@
         <option value="$PROJECT_DIR$/test-app/src/app/ts/main-bar.component.ts" />
         <option value="$PROJECT_DIR$/test-app/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/test-app/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/docs/AngularTesting.md" />
         <option value="$PROJECT_DIR$/test-app/src/testing/main-bar-stubs.ts" />
         <option value="$PROJECT_DIR$/test-app/src/testing/router-outlet-stubs.ts" />
         <option value="$PROJECT_DIR$/test-app/karma.conf.js" />
         <option value="$PROJECT_DIR$/test-app/src/app/1st.spec.ts" />
         <option value="$PROJECT_DIR$/test-app/src/app/app.component.spec.ts" />
+        <option value="$PROJECT_DIR$/docs/AngularTesting.md" />
+        <option value="$PROJECT_DIR$/test-app/src/testing/http.stubs.ts" />
+        <option value="$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.spec.ts" />
       </list>
     </option>
   </component>
@@ -248,6 +237,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,13 +273,29 @@
               <item name="angularTest" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="test-app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gridplayground" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="angularTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gridplayground" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="angularTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test-app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="testing" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +394,8 @@
       <workItem from="1504853635688" duration="9916000" />
       <workItem from="1505115604525" duration="17549000" />
       <workItem from="1505200123759" duration="1634000" />
-      <workItem from="1505208317299" duration="3219000" />
+      <workItem from="1505208317299" duration="6225000" />
+      <workItem from="1505308093519" duration="5391000" />
     </task>
     <task id="LOCAL-00001" summary="spaces">
       <created>1501164278636</created>
@@ -558,43 +565,50 @@
       <option name="project" value="LOCAL" />
       <updated>1504871833451</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="first steps testing angular">
+      <created>1505211563101</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1505211563101</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test - 2017.09.12 at 11h 53m 17s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 16m 17s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 11h 53m 28s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 16m 49s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 11h 53m 43s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 18m 50s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 11m 05s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 19m 14s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 11m 25s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 19m 43s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 12m 56s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 20m 11s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 13m 36s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 40m 07s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 13m 45s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 51m 57s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 14m 11s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 53m 31s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
-    <history-entry file="Test - 2017.09.12 at 12h 18m 43s.xml">
+    <history-entry file="Test - 2017.09.13 at 16h 53m 59s.xml">
       <configuration name="Test" configurationId="JavaScriptTestRunnerKarma" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136333000" />
+    <option name="totallyTimeSpent" value="144730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,16 +624,16 @@
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23027718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284169" sideWeight="0.49413645" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38053098" sideWeight="0.50159913" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16151386" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36381513" sideWeight="0.49840087" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.273353" sideWeight="0.50053304" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36381513" sideWeight="0.49840087" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4228122" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40019667" sideWeight="0.48294243" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -693,7 +707,8 @@
     <MESSAGE value="display data, Load forms module" />
     <MESSAGE value="user alert notice for required parameters" />
     <MESSAGE value="failed writing file in process" />
-    <option name="LAST_COMMIT_MESSAGE" value="failed writing file in process" />
+    <MESSAGE value="first steps testing angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="first steps testing angular" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -709,48 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/ts/widget2.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/ts/widget3.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/ts/widget1.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/html/widget1.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/ts/widget4.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/html/widget4.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="95" lean-forward="false" selection-start-line="2" selection-start-column="95" selection-end-line="2" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/grid-page.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -883,20 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/grid-playground.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-writer.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -989,25 +948,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-app/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/src/testing/main-bar-stubs.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1021,7 +965,7 @@
     <entry file="file://$PROJECT_DIR$/test-app/src/app/1st.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1030,33 +974,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-app/node_modules/@angular/core/testing/src/test_bed.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-app/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="527">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/AngularSetUp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/AngularTesting.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="95" column="200" lean-forward="false" selection-start-line="95" selection-start-column="189" selection-end-line="95" selection-end-column="200" />
+          <first_editor relative-caret-position="558">
+            <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1065,10 +1019,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-app/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/node_modules/@types/jasmine/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="112" column="17" lean-forward="false" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/src/testing/main-bar-stubs.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/node_modules/@angular/http/src/http.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20554" column="17" lean-forward="false" selection-start-line="20554" selection-start-column="17" selection-end-line="20554" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/src/testing/http.stubs.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/node_modules/@angular/core/testing/src/test_bed.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="195" column="24" lean-forward="false" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/grid-playground.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-app/src/app/gridplayground/services/json-reader.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
