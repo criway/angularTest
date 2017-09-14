@@ -17,6 +17,7 @@ import { Widget1Component } from './ts/widget1.component';
 import { Widget2Component } from './ts/widget2.component';
 import { Widget3Component } from './ts/widget3.component';
 import { Widget4Component } from './ts/widget4.component';
+import { TranslationTestComponent } from './translationTest/translation-test.component';
 
 import { IncidentService } from './incidents/services/incident.service';
 
@@ -36,6 +37,7 @@ const appRoutes: Routes = [
   { path: 'detail/:id', component: IncidentDetailComponent },
   { path: 'employee-detail/:id', component: EmployeeDetailComponent },
   { path: 'grid-playground', component: GridPageComponent },
+  { path: 'translation-test', component: TranslationTestComponent },
   { path: '**', component: PageContainerComponent}
 ];
 
@@ -57,7 +59,8 @@ const appRoutes: Routes = [
     GridPlaygroundComponent,
     GridPageComponent,
     AddRowFormComponent,
-    AddEmployeeFormComponent
+    AddEmployeeFormComponent,
+    TranslationTestComponent
   ],
   imports: [
     BrowserModule,

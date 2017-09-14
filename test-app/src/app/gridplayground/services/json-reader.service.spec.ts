@@ -1,4 +1,4 @@
-import {ComponentFixture, TestBed, inject, async, getTestBed} from '@angular/core/testing';
+import {TestBed, inject, async, getTestBed} from '@angular/core/testing';
 import {JsonReaderService} from './json-reader.service';
 import {BaseRequestOptions, Http, HttpModule, XHRBackend, ResponseOptions, Response} from '@angular/http';
 import {MockBackend, MockConnection} from '@angular/http/testing';
@@ -56,6 +56,7 @@ fdescribe('JsonReaderService without TestBed', () => {
     jsonReaderService.getDataFromJson('filename.json').then(
       (data) => {
         expect(true).toBeTruthy();
+        expect(data[0].id).toBe(26);
       }
     );
   }));

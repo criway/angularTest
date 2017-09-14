@@ -1,0 +1,12 @@
+<h1 i18n="site header|An introduction header for this sample@@introductionHeader">Hello i18n!</h1>
+<h2>THIS IS A BIG SHIT!</h2>
+<p>The purpose of this page was to test the i18n tool from angular to translate. But it is really difficult
+You can read about it <a href="https://angular.io/guide/i18n" target="_blank">here</a>.</p>
+<ng-container>This is translated without creating a new element</ng-container>
+<!--i18n: meaning|just for try-->
+This is translated without creating a new element
+<!--/i18n-->
+
+<br>
+<button (click)="inc(1)">+</button> <button (click)="inc(-1)">-</button>
+<span i18n="@@wolfPlural">{wolves, plural, =0 {no wolves} =1 {one wolf} =2 {two wolves} other {a wolf pack}}</span>
